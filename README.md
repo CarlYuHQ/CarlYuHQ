@@ -1,4 +1,7 @@
-### Hi there 👋
+# About me
+- I’m currently working in Peking University.
+- I’m interested in deep learning, AI, machine learning and so on.
+- But I'm a noob,looking forward to any pro's instruction. 
 
 <!--
 **CarlYuHQ/CarlYuHQ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
