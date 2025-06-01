@@ -2,7 +2,7 @@
 - I’m currently working in Peking University.
 - I’m interested in deep learning, AI, machine learning and so on.
 - But I'm a noob,looking forward to any pro's tuition.
-# More Information Please See [here](https://carlyuhq.github.io//) 
+# More Information Please See [my site](https://carlyuhq.github.io//) 
 
 <!--
 **CarlYuHQ/CarlYuHQ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
