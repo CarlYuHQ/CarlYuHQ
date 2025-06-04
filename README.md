@@ -56,14 +56,20 @@
 
 ## 📊 GitHub Stats
 
-<div align="center"> <a href="https://github.com/carlyuhq"> <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlyuhq&theme=github" /> </a> <a href="https://github.com/carlyuhq"> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlyuhq&layout=compact&theme=default&langs_count=8" /> </a> </div><div align="center"> <a href="https://github.com/carlyuhq"> <img height="180em" src="https://github-profile-trophy.vercel.app/?username=carlyuhq&theme=flat&row=2&column=4&margin-w=15&margin-h=15" /> </a> </div>
+<div align="center">
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=carlyuhq&show_icons=true&theme=github_light&count_private=true&include_all_commits=true" />
+  <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=carlyuhq&theme=github-light" />
+  <img height="150em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlyuhq&theme=github_light" />
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlyuhq&layout=compact&theme=github_light&langs_count=8" />
+  <img height="150em" src="https://github-profile-trophy.vercel.app/?username=carlyuhq&theme=flat&row=2&column=4&margin-w=15&margin-h=15" />
+</div>
 
 ---
 
 ## 🔥 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=carlyuhq&theme=react-dark" alt="activity graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=carlyuhq&theme=github-light" alt="activity graph"/>
   <br>
   <img src="https://komarev.com/ghpvc/?username=carlyuhq&label=Profile+Views&color=blueviolet&style=for-the-badge" alt="Profile views" /> 
   <p>⚡ <em>"I am a noob!!! But every expert was once a beginner."</em> ⚡</p>
