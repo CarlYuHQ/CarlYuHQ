@@ -23,7 +23,7 @@
 - 🔭 I’m currently working on **deep learning, AI, machine learning and so on**
 - 🌱 I’m currently learning **algorithms**
 - 🤝 I’m looking for help with **all kinds of pros**
-- 📝 I regularly write articles on [https://carlyuhq.github.io/blogs](https://carlyuhq.github.io/blogs)
+- 📝 I regularly write articles on [https://carlyuhq.github.io/blogs](https://carlyuhq.github.io/blogs/)
 - 📫 How to reach me **2100016634@stu.pku.edu.cn**
 - 📄 Know about my experiences [https://carlyuhq.github.io/](https://carlyuhq.github.io/)
 - ⚡ Fun fact **I am a noob!!!**
