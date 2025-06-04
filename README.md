@@ -59,7 +59,6 @@
 <div align="center">
   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=carlyuhq&show_icons=true&theme=github_light&count_private=true&include_all_commits=true" />
   <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=carlyuhq&theme=github-light" />
-  <img height="150em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlyuhq&theme=github_light" />
 </div>
 <div align="center">
   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlyuhq&layout=compact&theme=github_light&langs_count=8" />
