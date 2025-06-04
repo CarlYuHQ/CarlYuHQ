@@ -1,58 +1,45 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+CarlYuHQ;Undergrad+%40+Peking+University;AI%2FML+Enthusiast;Full-Stack+Developer" alt="Typing SVG" />
-  
   <p>
-    <a href="https://carlyuhq.github.io/">
-      <img src="https://img.shields.io/badge/-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" />
-    </a>
-    <a href="https://carlyuhq.github.io/blogs">
-      <img src="https://img.shields.io/badge/-Tech%20Blogs-FF7139?style=for-the-badge&logo=dev.to&logoColor=white" />
-    </a>
-    <a href="mailto:2100016634@stu.pku.edu.cn">
-      <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-    </a>
-    <a href="https://www.linkedin.com/in/carlyuhq/">
-      <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-    </a>
+    <a href="https://carlyuhq.github.io/"><img src="https://img.shields.io/badge/-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="https://carlyuhq.github.io/blogs"><img src="https://img.shields.io/badge/-Tech%20Blogs-FF7139?style=for-the-badge&logo=dev.to&logoColor=white" /></a>
+    <a href="mailto:2100016634@stu.pku.edu.cn"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://www.linkedin.com/in/carlyuhq/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   </p>
 </div>
 
 ---
-
-## 👨‍🎓 About Me
 
 ```python
 class Student:
     def __init__(self):
         self.name = "CarlYuHQ"
         self.university = "Peking University"
-        self.department = "Information Management"
-        self.interests = ["Deep Learning", "AI", "Machine Learning", "Algorithms"]
-        self.status = "Actively learning and exploring new tech"
-        self.fun_fact = "Self-proclaimed noob who's constantly leveling up! 🚀"
+        self.department = "Info Management"
+        self.interests = ["Deep Learning", "AI", "ML", "Algorithms"]
+        self.status = "Learning & exploring new tech"
+        self.fun_fact = "Noob constantly leveling up! 🚀"
     def say_hello(self):
-        return "Let's connect and build something amazing together!"
+        return "Let's connect and build something amazing!"
 ```
 
 ---
 
-## 🛠️ Tech Stack
-
-**Languages:**  
+**Languages**  
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-**Databases:**  
+**Databases**  
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
-**DevOps & Tools:**  
+**DevOps & Tools**  
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
@@ -61,27 +48,20 @@ class Student:
 
 ---
 
-## 📊 GitHub Stats
-
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=carlyuhq&show_icons=true&theme=radical&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=carlyuhq&theme=radical" />
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlyuhq&theme=radical" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlyuhq&layout=compact&theme=radical&langs_count=8" />
-  <img height="180em" src="https://github-profile-trophy.vercel.app/?username=carlyuhq&theme=radical&row=2&column=4&margin-w=15&margin-h=15" />
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=carlyuhq&show_icons=true&theme=radical&count_private=true&include_all_commits=true" />
+  <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=carlyuhq&theme=radical" />
+  <img height="150em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlyuhq&theme=radical" />
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlyuhq&layout=compact&theme=radical&langs_count=8" />
+  <img height="150em" src="https://github-profile-trophy.vercel.app/?username=carlyuhq&theme=radical&row=2&column=4&margin-w=15&margin-h=15" />
 </div>
 
 ---
 
-## 🔥 Contribution Graph
-
 [![Carl's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=carlyuhq&theme=react-dark&hide_border=true&area=true)](https://github.com/carlyuhq)
-
----
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=carlyuhq&label=Profile+Views&color=blueviolet&style=for-the-badge" alt="Profile views" /> 
-  <p>⚡ <em>"I am a noob!!! But every expert was once a beginner."</em> ⚡</p>
-  <!-- 动态蛇形贡献动画 -->
+  <br>⚡ <em>"I am a noob!!! But every expert was once a beginner."</em> ⚡<br>
   <img src="https://github.com/carlyuhq/carlyuhq/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
