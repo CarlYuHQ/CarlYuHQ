@@ -56,13 +56,7 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=carlyuhq&show_icons=true&theme=radical&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=carlyuhq&theme=radical" />
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlyuhq&theme=radical" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlyuhq&layout=compact&theme=radical&langs_count=8" />
-  <img height="180em" src="https://github-profile-trophy.vercel.app/?username=carlyuhq&theme=radical&row=2&column=4&margin-w=15&margin-h=15" />
-</div>
+<div align="center"> <a href="https://github.com/carlyuhq"> <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlyuhq&theme=github" /> </a> <a href="https://github.com/carlyuhq"> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlyuhq&layout=compact&theme=default&langs_count=8" /> </a> </div><div align="center"> <a href="https://github.com/carlyuhq"> <img height="180em" src="https://github-profile-trophy.vercel.app/?username=carlyuhq&theme=flat&row=2&column=4&margin-w=15&margin-h=15" /> </a> </div>
 
 ---
 
