@@ -62,13 +62,13 @@
 
 ## 🔥 Contribution Graph
 
-[![Carl's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=carlyuhq&theme=react-dark&hide_border=true&area=true)](https://github.com/carlyuhq)
-
----
-
 <div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=carlyuhq&theme=react-dark" alt="activity graph"/>
+  <br>
   <img src="https://komarev.com/ghpvc/?username=carlyuhq&label=Profile+Views&color=blueviolet&style=for-the-badge" alt="Profile views" /> 
   <p>⚡ <em>"I am a noob!!! But every expert was once a beginner."</em> ⚡</p>
-  <!-- 动态蛇形贡献动画 -->
-  <img src="https://github.com/carlyuhq/carlyuhq/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <!-- 如果你已配置 snake 动画，可取消注释 -->
+  <!-- <img src="https://github.com/carlyuhq/carlyuhq/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" /> -->
 </div>
+
+---
