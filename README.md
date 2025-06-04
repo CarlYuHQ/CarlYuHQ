@@ -20,20 +20,13 @@
 ---
 
 ## 👨‍🎓 About Me
-
-```python
-class Student:
-    def __init__(self):
-        self.name = "CarlYuHQ"
-        self.university = "Peking University"
-        self.department = "Information Management"
-        self.interests = ["Deep Learning", "AI", "Machine Learning", "Algorithms"]
-        self.status = "Actively learning and exploring new tech"
-        self.fun_fact = "Self-proclaimed noob who's constantly leveling up! 🚀"
-    def say_hello(self):
-        return "Let's connect and build something amazing together!"
-```
-
+- 🔭 I’m currently working on **deep learning, AI, machine learning and so on**
+- 🌱 I’m currently learning **algorithms**
+- 🤝 I’m looking for help with **all kinds of pros**
+- 📝 I regularly write articles on [https://carlyuhq.github.io/blogs](https://carlyuhq.github.io/blogs)
+- 📫 How to reach me **2100016634@stu.pku.edu.cn**
+- 📄 Know about my experiences [https://carlyuhq.github.io/](https://carlyuhq.github.io/)
+- ⚡ Fun fact **I am a noob!!!**
 ---
 
 ## 🛠️ Tech Stack
