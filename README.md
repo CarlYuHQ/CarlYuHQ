@@ -24,7 +24,7 @@
 - 🌱 I’m currently learning **algorithms**
 - 🤝 I’m looking for help with **all kinds of pros**
 - 📝 I regularly write articles on [Blogs](https://carlyuhq.github.io//Blogs/)
-- 📫 How to reach me **2100016634@stu.pku.edu.cn**
+- 📫 How to reach me **2501211863@stu.pku.edu.cn**
 - 📄 Know about my experiences [Here](https://carlyuhq.github.io/)
 - ⚡ Fun fact **I am a noob!!!**
 ---
