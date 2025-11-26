@@ -8,7 +8,7 @@
     <a href="https://carlyuhq.github.io/blogs">
       <img src="https://img.shields.io/badge/-Tech%20Blogs-FF7139?style=for-the-badge&logo=dev.to&logoColor=white" />
     </a>
-    <a href="mailto:2100016634@stu.pku.edu.cn">
+    <a href="mailto:2501211863@stu.pku.edu.cn">
       <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
     <a href="https://www.linkedin.com/in/carlyuhq/">
