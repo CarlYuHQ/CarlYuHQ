@@ -56,19 +56,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=carlyuhq&show_icons=true&theme=github_light&count_private=true&include_all_commits=true" />
-  <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=carlyuhq&theme=github-light" />
-</div>
-<div align="center">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlyuhq&layout=compact&theme=github_light&langs_count=8" />
-  <img height="150em" src="https://github-profile-trophy.vercel.app/?username=carlyuhq&theme=flat&row=2&column=4&margin-w=15&margin-h=15" />
-</div>
-
----
-
 ## 🔥 Contribution Graph
 
 <div align="center">
