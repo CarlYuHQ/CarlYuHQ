@@ -19,13 +19,33 @@ import xml.etree.ElementTree as ET
 
 USERNAME = "carlyuhq"
 SOURCE_URL = f"https://github.com/users/{USERNAME}/contributions"
-OUTPUT = Path(__file__).resolve().parents[2] / "assets" / "activity.svg"
+OUTPUT_STEM = Path(__file__).resolve().parents[2] / "assets" / "activity"
 MAX_BYTES = 4 * 1024 * 1024
 MONTHS = (
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December",
 )
 COLORS = ("#eeedf4", "#d9d1f2", "#b7a8e5", "#9782dc", "#7761cf")
+VARIANTS = {
+    "light": {
+        "background": "#fbfaf7",
+        "text": "#242438",
+        "accent": "#7761cf",
+        "grid": "#eeedf4",
+        "colors": COLORS,
+        "suffix": "",
+        "label": "浅色",
+    },
+    "dark": {
+        "background": "#14141d",
+        "text": "#e7e4f0",
+        "accent": "#a091ea",
+        "grid": "#1f1e2b",
+        "colors": ("#1f1e2b", "#31407a", "#4a559a", "#7d6bad", "#a58bf0"),
+        "suffix": "-dark",
+        "label": "深色",
+    },
+}
 NUMBER = r"(?:0|[1-9]\d*|[1-9]\d{0,2}(?:,\d{3})+)"
 TOOLTIP = re.compile(
     rf"(?P<count>No|{NUMBER}) contribution(?:s)? on "
@@ -145,18 +165,19 @@ def parse_contributions(html):
     return days, reported_total, sunday, weeks
 
 
-def render_svg(days, total, sunday, weeks):
+def render_svg(days, total, sunday, weeks, variant="light"):
+    theme = VARIANTS[variant]
     start, end = days[0].date, days[-1].date
     by_date = {item.date: item for item in days}
     lines = [
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="900" height="230" role="img" aria-labelledby="activity-title activity-desc">',
         f'  <title id="activity-title">{USERNAME}: {total:,} contributions, {start} to {end}</title>',
         f'  <desc id="activity-desc">GitHub official contribution calendar for {USERNAME}. {len(days)} verified dates across {weeks} Sunday-first weeks; daily tooltip counts sum to {total:,}. Outlined boundary cells are outside the reported range, not zero-contribution days.</desc>',
-        '  <rect width="900" height="230" rx="24" fill="#fbfaf7"/>',
-        '  <g fill="#242438" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="14">',
+        f'  <rect width="900" height="230" rx="24" fill="{theme["background"]}"/>',
+        f'  <g fill="{theme["text"]}" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="14">',
         '    <text x="32" y="38" font-size="24" font-weight="700">Small commits. Steady progress.</text>',
         f'    <text x="32" y="64">{USERNAME} · {start} — {end}</text>',
-        f'    <text x="868" y="38" text-anchor="end" font-size="30" font-weight="700" fill="#7761cf">{total:,}</text>',
+        f'    <text x="868" y="38" text-anchor="end" font-size="30" font-weight="700" fill="{theme["accent"]}">{total:,}</text>',
         '    <text x="868" y="62" text-anchor="end">contributions</text>',
     ]
     grid_x, grid_y, step, cell = 84, 100, 14.4, 11.5
@@ -191,14 +212,14 @@ def render_svg(days, total, sunday, weeks):
             item = by_date.get(day)
             geometry = f'x="{x:.1f}" y="{y:.1f}" width="{cell}" height="{cell}" rx="2.5"'
             if item is None:
-                lines.append(f'    <rect {geometry} fill="none" stroke="#eeedf4" data-padding="true"><title>Outside reported date range; no contribution data.</title></rect>')
+                lines.append(f'    <rect {geometry} fill="none" stroke="{theme["grid"]}" data-padding="true"><title>Outside reported date range; no contribution data.</title></rect>')
             else:
                 noun = "contribution" if item.count == 1 else "contributions"
                 title = escape(f"{day}: {item.count:,} {noun} (GitHub level {item.level})")
-                lines.append(f'    <rect {geometry} fill="{COLORS[item.level]}" data-date="{day}" data-level="{item.level}" data-count="{item.count}"><title>{title}</title></rect>')
+                lines.append(f'    <rect {geometry} fill="{theme["colors"][item.level]}" data-date="{day}" data-level="{item.level}" data-count="{item.count}"><title>{title}</title></rect>')
     lines.append('    <text x="84" y="221">GitHub contribution activity</text>')
     lines.append('    <text x="704" y="221" text-anchor="end">Low</text>')
-    for level, color in enumerate(COLORS):
+    for level, color in enumerate(theme["colors"]):
         x = 717 + level * 19
         lines.append(f'    <rect x="{x}" y="209" width="12" height="12" rx="2.5" fill="{color}"><title>Contribution intensity level {level}</title></rect>')
     lines.extend([
@@ -264,20 +285,20 @@ def load_source(source):
         return content.decode("utf-8")
 
 
-def replace_atomically(svg):
+def replace_atomically(svg, output):
     data = svg.encode("utf-8")
-    if OUTPUT.exists() and OUTPUT.read_bytes() == data:
+    if output.exists() and output.read_bytes() == data:
         return False
     # 同目录临时文件确保替换原子性；所有解析与 SVG 验证均已完成。
     temporary = None
     try:
-        with tempfile.NamedTemporaryFile(dir=OUTPUT.parent, prefix=".activity-", suffix=".tmp", delete=False) as handle:
+        with tempfile.NamedTemporaryFile(dir=output.parent, prefix=".activity-", suffix=".tmp", delete=False) as handle:
             temporary = Path(handle.name)
             handle.write(data)
             handle.flush()
             os.fsync(handle.fileno())
         temporary.chmod(0o644)
-        os.replace(temporary, OUTPUT)
+        os.replace(temporary, output)
         temporary = None
     finally:
         if temporary is not None:
@@ -286,18 +307,27 @@ def replace_atomically(svg):
 
 
 def main(argv=None):
-    arguments = argparse.ArgumentParser(description="验证 GitHub 官方每日贡献后更新浅色 SVG")
+    arguments = argparse.ArgumentParser(description="验证 GitHub 官方每日贡献后更新浅色与深色 SVG")
     arguments.add_argument("--source", type=Path, help="使用本地 GitHub 日历 HTML；省略时联网刷新")
+    arguments.add_argument("--variant", choices=sorted(VARIANTS) + ["all"], default="all",
+                           help="选择生成浅色、深色或两者；默认两者")
     args = arguments.parse_args(argv)
+    wanted = sorted(VARIANTS) if args.variant == "all" else [args.variant]
     try:
         days, total, sunday, weeks = parse_contributions(load_source(args.source))
-        svg = render_svg(days, total, sunday, weeks)
-        changed = replace_atomically(svg)
+        rendered = {name: render_svg(days, total, sunday, weeks, name) for name in wanted}
+        changed = {}
+        for name in wanted:
+            output = OUTPUT_STEM.with_name(f"activity{VARIANTS[name]['suffix']}.svg")
+            changed[name] = replace_atomically(rendered[name], output)
     except (OSError, ValueError, ET.ParseError) as error:
         print(f"更新失败，现有图片保持不变：{error}", file=sys.stderr)
         return 1
     levels = dict(sorted(Counter(item.level for item in days).items()))
-    print(f"验证通过：{len(days)} 个唯一日期，{days[0].date} 至 {days[-1].date}；{weeks} 周 × 7 行；每日次数合计/官方总量 = {total}/{total}；等级分布 = {levels}；XML 有效；{'已更新' if changed else '内容未变'} {OUTPUT}")
+    print(f"验证通过：{len(days)} 个唯一日期，{days[0].date} 至 {days[-1].date}；{weeks} 周 × 7 行；每日次数合计/官方总量 = {total}/{total}；等级分布 = {levels}；XML 有效。")
+    for name in wanted:
+        output = OUTPUT_STEM.with_name(f"activity{VARIANTS[name]['suffix']}.svg")
+        print(f"  {VARIANTS[name]['label']}版：{'已更新' if changed[name] else '内容未变'} {output}")
     return 0
 
 

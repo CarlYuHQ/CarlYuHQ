@@ -30,18 +30,18 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: 验证官方数据并更新浅色贡献图
+      - name: 验证官方数据并更新浅色与深色贡献图
         run: python -B .github/scripts/update_activity.py
 
       - name: 仅在图片变化时提交并推送默认分支
         shell: bash
         run: |
           set -euo pipefail
-          git add -- assets/activity.svg
-          if git diff --cached --quiet -- assets/activity.svg; then
+          git add -- assets/activity.svg assets/activity-dark.svg
+          if git diff --cached --quiet -- assets/activity.svg assets/activity-dark.svg; then
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit --only -m 'chore: update contribution activity' -- assets/activity.svg
+          git commit -m 'chore: update contribution activity' -- assets/activity.svg assets/activity-dark.svg
           git push origin "HEAD:refs/heads/${DEFAULT_BRANCH}"
