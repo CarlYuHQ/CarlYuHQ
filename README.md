@@ -1,70 +1,68 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+CarlYuHQ;Undergrad+%40+Peking+University;AI%2FML+Enthusiast;Full-Stack+Developer" alt="Typing SVG" />
-  
-  <p>
-    <a href="https://carlyuhq.github.io/">
-      <img src="https://img.shields.io/badge/-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" />
-    </a>
-    <a href="https://carlyuhq.github.io/blogs">
-      <img src="https://img.shields.io/badge/-Tech%20Blogs-FF7139?style=for-the-badge&logo=dev.to&logoColor=white" />
-    </a>
-    <a href="mailto:2501211863@stu.pku.edu.cn">
-      <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-    </a>
-    <a href="https://www.linkedin.com/in/carlyuhq/">
-      <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-    </a>
-  </p>
-</div>
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Hi, I'm Carl. Peking University · AI / ML · Full-stack. Learn something. Make something." />
+</p>
 
----
+<p align="center">
+  <a href="https://carlyuhq.github.io/"><b>Website ↗</b></a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://carlyuhq.github.io//Blogs/"><b>Blogs ↗</b></a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/carlyuhq/"><b>LinkedIn ↗</b></a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="mailto:2501211863@stu.pku.edu.cn"><b>Say hello ↗</b></a>
+</p>
 
-## 👨‍🎓 About Me
-- 🔭 I’m currently working on **deep learning, AI, machine learning and so on**
-- 🌱 I’m currently learning **algorithms**
-- 🤝 I’m looking for help with **all kinds of pros**
-- 📝 I regularly write articles on [Blogs](https://carlyuhq.github.io//Blogs/)
-- 📫 How to reach me **2501211863@stu.pku.edu.cn**
-- 📄 Know about my experiences [Here](https://carlyuhq.github.io/)
-- ⚡ Fun fact **I am a noob!!!**
----
+<br>
 
-## 🛠️ Tech Stack
-**Languages:**  
+### A little about the person behind the commits
 
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+I'm **Hanqing Yu (Carl)**, a student at **Peking University**. I explore **machine learning, NLP, and LLMs** — and enjoy turning what I learn into working code.
 
-**Databases:**  
+Right now: going deeper into **algorithms**, tinkering with **AI**, and writing down the things I figure out. Always happy to exchange ideas, learn from others, and build something together.
 
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+<p>
+  <img src="./assets/explore.svg" width="100%" alt="Explore: ML, NLP, LLMs. Build: algorithms and full-stack. Share: tech blogs and learning notes." />
+</p>
 
-**DevOps & Tools:**  
+### A few things I've been building
 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white)
+<p>
+  <a href="https://github.com/CarlYuHQ/information-analysis"><img src="./assets/project-analysis.svg" width="49%" alt="information-analysis — a data-to-report AI workflow with NLP, visualization, and LLM reports. Python, React, FastAPI." /></a>
+  <a href="https://github.com/CarlYuHQ/SnakeGame_pku"><img src="./assets/project-snake.svg" width="49%" alt="SnakeGame_pku — a collaborative PKU snake game course project in C++." /></a>
+</p>
 
----
+[More repositories ↗](https://github.com/CarlYuHQ?tab=repositories)
 
-## 🔥 Contribution Graph
+### My working toolkit
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=carlyuhq&theme=github-light" alt="activity graph"/>
+**Code** &nbsp; `Python` · `C++` · `C` · `JavaScript` · `Java`  
+**Data** &nbsp; `MySQL` · `PostgreSQL` · `MongoDB` · `Redis`  
+**Build** &nbsp; `Git` · `Linux` · `Node.js` · `Qt`
+
+<details>
+  <summary>A few more tools I've worked with</summary>
   <br>
-  <img src="https://komarev.com/ghpvc/?username=carlyuhq&label=Profile+Views&color=blueviolet&style=for-the-badge" alt="Profile views" /> 
-  <p>⚡ <em>"I am a noob!!! But every expert was once a beginner."</em> ⚡</p>
-  <!-- 如果你已配置 snake 动画，可取消注释 -->
-  <!-- <img src="https://github.com/carlyuhq/carlyuhq/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" /> -->
-</div>
+  <code>Oracle</code> · <code>Hadoop</code>
+</details>
 
----
+### From my notebook
+
+I like writing things down while they're still fresh — technical walkthroughs, experiments, and notes from learning in public.
+
+- [**Tech blogs**](https://carlyuhq.github.io//Blogs/) — ideas, experiments, and things that finally clicked.
+- [**Learning notes**](https://carlyuhq.github.io/Notes/) — a growing collection of what I'm studying.
+
+### One commit at a time
+
+<a href="https://github.com/CarlYuHQ?tab=overview">
+  <img src="./assets/activity.svg" width="100%" alt="CarlYuHQ's GitHub contribution calendar. Generated from GitHub's official contribution data; click to see the live profile." />
+</a>
+
+<sub>Generated from GitHub's official contribution calendar. <a href="https://github.com/CarlYuHQ?tab=overview">Live activity ↗</a></sub>
+
+<br><br>
+
+<p align="center">
+  <i>Still a noob. Just asking better questions.</i><br>
+  <sub>Learn something. Make something. Share something.</sub>
+</p>

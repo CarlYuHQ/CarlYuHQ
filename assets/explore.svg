@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="130" viewBox="0 0 900 130" role="img" aria-labelledby="title desc">
+<title id="title">Explore. Build. Share.</title><desc id="desc">Explore machine learning, NLP and LLMs. Build with algorithms and full-stack tools. Share technical blogs and learning notes.</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect x="0" y="0" width="288" height="130" rx="18" fill="#f2eef9"/>
+<rect x="306" y="0" width="288" height="130" rx="18" fill="#eef4fb"/>
+<rect x="612" y="0" width="288" height="130" rx="18" fill="#f8f2e7"/>
+<text x="24" y="31" font-size="12" letter-spacing="1.7" fill="#7761cf" font-weight="650">01 / FOLLOW THE QUESTION</text>
+<text x="24" y="69" font-size="28" font-weight="700" fill="#242438">Explore.</text>
+<text x="24" y="101" font-size="16" fill="#666073">ML · NLP · LLMs</text>
+<path d="M232 50L239 65 255 72 239 79 232 95 225 79 209 72 225 65Z" fill="#c5b5e7"/>
+<text x="330" y="31" font-size="12" letter-spacing="1.7" fill="#4d79a8" font-weight="650">02 / MAKE IT WORK</text>
+<text x="330" y="69" font-size="28" font-weight="700" fill="#242438">Build.</text>
+<text x="330" y="101" font-size="16" fill="#666073">Algorithms · Full-stack</text>
+<path d="M542 54L528 67 542 80M561 54L575 67 561 80" stroke="#94b5d8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="636" y="31" font-size="12" letter-spacing="1.7" fill="#a48043" font-weight="650">03 / LEAVE A NOTE</text>
+<text x="636" y="69" font-size="28" font-weight="700" fill="#242438">Share.</text>
+<text x="636" y="101" font-size="16" fill="#666073">Tech blogs · Learning notes</text>
+<g transform="rotate(8 855 66)"><rect x="836" y="45" width="29" height="38" rx="4" fill="none" stroke="#d0b57d" stroke-width="3"/><path d="M843 56H858M843 64H858M843 72H852" stroke="#d0b57d" stroke-width="2.5" stroke-linecap="round" fill="none"/></g>
+</g></svg>
