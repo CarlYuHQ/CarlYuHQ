@@ -61,27 +61,12 @@ I'm **Hanqing Yu (Carl)**, a student at **Peking University**, working on **mach
 
 ## 🐍 Contribution Snake
 
-<!-- 首次使用请先手动运行一次 Actions → Generate snake contribution animation；成功生成 output 分支后再删掉这行注释。 -->
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CarlYuHQ/CarlYuHQ/output/github-contribution-grid-snake-dark.svg">
     <img src="https://raw.githubusercontent.com/CarlYuHQ/CarlYuHQ/output/github-contribution-grid-snake.svg" alt="CarlYuHQ's contribution snake animation" />
   </picture>
 </p>
-
----
-
-## 🔥 Contribution Graph
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg">
-    <img src="./assets/activity.svg" width="100%" alt="CarlYuHQ's GitHub contribution calendar" />
-  </picture>
-</p>
-
-<sub>Generated from GitHub's official contribution calendar. <a href="https://github.com/CarlYuHQ?tab=overview">Live activity ↗</a></sub>
 
 ---
 
