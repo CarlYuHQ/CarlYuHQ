@@ -1,0 +1,48 @@
+name: Refresh profile cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: 检出默认分支
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: true
+
+      - name: 配置 Python 3.13
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+
+      - name: 用官方 API 数据重画浅色与深色卡片
+        run: python -B .github/scripts/generate_cards.py
+
+      - name: 仅在卡片变化时提交并推送默认分支
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- assets
+          if git diff --cached --quiet -- assets; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh profile cards' -- assets
+          git push origin "HEAD:refs/heads/${DEFAULT_BRANCH}"

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="132" viewBox="0 0 470 132" role="img">
+  <title>carlyuhq/SnakeGame_pku</title>
+  <rect x="0.5" y="0.5" width="469" height="131" rx="10" fill="#14141d" stroke="#2a2836"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif" fill="#e7e4f0">
+    <text x="20" y="34" font-size="17" font-weight="700">carlyuhq/SnakeGame_pku</text>
+    <text x="20" y="66" font-size="12.5" fill="#9a93ad">No description provided.</text>
+    <circle cx="26" cy="102" r="4.5" fill="#f34b7d"/>
+    <text x="38" y="106" font-size="12">C++</text>
+    <text x="130" y="106" font-size="12">★ 1</text>
+    <text x="190" y="106" font-size="12">⑂ 2</text>
+    <text x="450" y="106" font-size="11.5" text-anchor="end" fill="#9a93ad">Updated 2025-06-22</text>
+  </g>
+</svg>

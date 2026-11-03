@@ -41,14 +41,16 @@ I'm **Hanqing Yu (Carl)**, a student at **Peking University**, working on **mach
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=carlyuhq&show_icons=true&hide_border=true&theme=github_dark">
-    <img src="https://github-readme-stats.vercel.app/api?username=carlyuhq&show_icons=true&hide_border=true&theme=default" alt="CarlYuHQ's GitHub stats" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg">
+    <img src="./assets/stats.svg" alt="CarlYuHQ's GitHub stats" width="49%" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=carlyuhq&layout=compact&hide_border=true&theme=github_dark&langs_count=8">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=carlyuhq&layout=compact&hide_border=true&theme=default&langs_count=8" alt="CarlYuHQ's top languages" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/langs-dark.svg">
+    <img src="./assets/langs.svg" alt="CarlYuHQ's most used languages" width="49%" />
   </picture>
 </p>
+
+<sub>Built from GitHub's official API and refreshed daily in this repository.</sub>
 
 <p align="center">
   <picture>
@@ -74,12 +76,12 @@ I'm **Hanqing Yu (Carl)**, a student at **Peking University**, working on **mach
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=carlyuhq&repo=information-analysis&theme=github_dark&hide_border=true&show_owner=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=carlyuhq&repo=information-analysis&theme=default&hide_border=true&show_owner=true" alt="information-analysis" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/information-analysis-dark.svg">
+    <img src="./assets/information-analysis.svg" alt="information-analysis" width="49%" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=carlyuhq&repo=SnakeGame_pku&theme=github_dark&hide_border=true&show_owner=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=carlyuhq&repo=SnakeGame_pku&theme=default&hide_border=true&show_owner=true" alt="SnakeGame_pku" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/SnakeGame_pku-dark.svg">
+    <img src="./assets/SnakeGame_pku.svg" alt="SnakeGame_pku" width="49%" />
   </picture>
 </p>
 

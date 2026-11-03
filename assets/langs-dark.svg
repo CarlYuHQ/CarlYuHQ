@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="205" viewBox="0 0 300 205" role="img">
+  <title>Most Used Languages</title>
+  <rect x="0.5" y="0.5" width="299" height="204" rx="10" fill="#14141d" stroke="#2a2836"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif" fill="#e7e4f0">
+    <text x="20" y="34" font-size="17" font-weight="700">Most Used Languages</text>
+    <text x="20" y="54" font-size="11" fill="#9a93ad">by repository count · 20 public repos</text>
+    <circle cx="26" cy="80" r="4.5" fill="#3572A5"/>
+    <text x="38" y="84" font-size="12">Python</text>
+    <rect x="150" y="75" width="110" height="8" rx="4" fill="#241f33"/>
+    <rect x="150" y="75" width="41" height="8" rx="4" fill="#3572A5"/>
+    <text x="280" y="84" font-size="11" text-anchor="end" fill="#9a93ad">6 · 38%</text>
+    <circle cx="26" cy="100" r="4.5" fill="#e34c26"/>
+    <text x="38" y="104" font-size="12">HTML</text>
+    <rect x="150" y="95" width="110" height="8" rx="4" fill="#241f33"/>
+    <rect x="150" y="95" width="28" height="8" rx="4" fill="#e34c26"/>
+    <text x="280" y="104" font-size="11" text-anchor="end" fill="#9a93ad">4 · 25%</text>
+    <circle cx="26" cy="120" r="4.5" fill="#f1e05a"/>
+    <text x="38" y="124" font-size="12">JavaScript</text>
+    <rect x="150" y="115" width="110" height="8" rx="4" fill="#241f33"/>
+    <rect x="150" y="115" width="14" height="8" rx="4" fill="#f1e05a"/>
+    <text x="280" y="124" font-size="11" text-anchor="end" fill="#9a93ad">2 · 12%</text>
+    <circle cx="26" cy="140" r="4.5" fill="#3178c6"/>
+    <text x="38" y="144" font-size="12">TypeScript</text>
+    <rect x="150" y="135" width="110" height="8" rx="4" fill="#241f33"/>
+    <rect x="150" y="135" width="14" height="8" rx="4" fill="#3178c6"/>
+    <text x="280" y="144" font-size="11" text-anchor="end" fill="#9a93ad">2 · 12%</text>
+    <circle cx="26" cy="160" r="4.5" fill="#f34b7d"/>
+    <text x="38" y="164" font-size="12">C++</text>
+    <rect x="150" y="155" width="110" height="8" rx="4" fill="#241f33"/>
+    <rect x="150" y="155" width="7" height="8" rx="4" fill="#f34b7d"/>
+    <text x="280" y="164" font-size="11" text-anchor="end" fill="#9a93ad">1 · 6%</text>
+    <circle cx="26" cy="180" r="4.5" fill="#89e051"/>
+    <text x="38" y="184" font-size="12">Shell</text>
+    <rect x="150" y="175" width="110" height="8" rx="4" fill="#241f33"/>
+    <rect x="150" y="175" width="7" height="8" rx="4" fill="#89e051"/>
+    <text x="280" y="184" font-size="11" text-anchor="end" fill="#9a93ad">1 · 6%</text>
+  </g>
+</svg>

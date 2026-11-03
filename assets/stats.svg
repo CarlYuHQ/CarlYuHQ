@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="205" viewBox="0 0 470 205" role="img">
+  <title>carlyuhq&#x27;s GitHub Stats</title>
+  <rect x="0.5" y="0.5" width="469" height="204" rx="10" fill="#fbfaf7" stroke="#e8e3f1"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif" fill="#242438">
+    <text x="20" y="34" font-size="17" font-weight="700">carlyuhq&#x27;s GitHub Stats</text>
+    <text x="20" y="76" font-size="12" fill="#6b6478">Public Repositories</text>
+    <text x="20" y="96" font-size="17" font-weight="700" fill="#7761cf">20</text>
+    <text x="245" y="76" font-size="12" fill="#6b6478">Followers</text>
+    <text x="245" y="96" font-size="17" font-weight="700" fill="#7761cf">5</text>
+    <text x="20" y="118" font-size="12" fill="#6b6478">Total Stars</text>
+    <text x="20" y="138" font-size="17" font-weight="700" fill="#7761cf">4</text>
+    <text x="245" y="118" font-size="12" fill="#6b6478">Total Forks</text>
+    <text x="245" y="138" font-size="17" font-weight="700" fill="#7761cf">4</text>
+    <text x="20" y="160" font-size="12" fill="#6b6478">Languages Used</text>
+    <text x="20" y="180" font-size="17" font-weight="700" fill="#7761cf">6</text>
+    <text x="245" y="160" font-size="12" fill="#6b6478">On GitHub Since</text>
+    <text x="245" y="180" font-size="17" font-weight="700" fill="#7761cf">2023</text>
+  </g>
+</svg>
