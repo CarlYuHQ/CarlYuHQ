@@ -136,18 +136,19 @@ def stat_card(theme, stats):
 
 
 def lang_card(theme, stats):
-    width, height = 300, 205
+    # 与总览卡使用完全相同的内建尺寸，保证并排缩放后高度一致。
+    width, height = 470, 205
+    bar_x, bar_width = 210, 190
     lines = head(theme, "Most Used Languages", width, height)
     lines.append(f'    <text x="20" y="54" font-size="11" fill="{theme["muted"]}">by repository count · {stats["repos"]} public repos</text>')
     for index, (name, count, percent) in enumerate(stats["languages"]):
-        y = 84 + index * 20
+        y = 86 + index * 20
         color = LANG_COLORS.get(name, theme["accent"])
         lines.append(f'    <circle cx="26" cy="{y - 4}" r="4.5" fill="{color}"/>')
         lines.append(f'    <text x="38" y="{y}" font-size="12">{escape(name)}</text>')
-        bar_x = 150
-        lines.append(f'    <rect x="{bar_x}" y="{y - 9}" width="110" height="8" rx="4" fill="{theme["bar"]}"/>')
-        lines.append(f'    <rect x="{bar_x}" y="{y - 9}" width="{max(4, round(110 * percent / 100))}" height="8" rx="4" fill="{color}"/>')
-        lines.append(f'    <text x="280" y="{y}" font-size="11" text-anchor="end" fill="{theme["muted"]}">{count} · {percent:.0f}%</text>')
+        lines.append(f'    <rect x="{bar_x}" y="{y - 9}" width="{bar_width}" height="8" rx="4" fill="{theme["bar"]}"/>')
+        lines.append(f'    <rect x="{bar_x}" y="{y - 9}" width="{max(4, round(bar_width * percent / 100))}" height="8" rx="4" fill="{color}"/>')
+        lines.append(f'    <text x="450" y="{y}" font-size="11" text-anchor="end" fill="{theme["muted"]}">{count} · {percent:.0f}%</text>')
     lines.append('  </g>\n</svg>\n')
     return "\n".join(lines)
 
@@ -215,7 +216,7 @@ def main(argv=None):
         for variant, theme in VARIANTS.items():
             suffix = theme["suffix"]
             jobs[f"stats{suffix}.svg"] = (stat_card(theme, stats), 470, 205)
-            jobs[f"langs{suffix}.svg"] = (lang_card(theme, stats), 300, 205)
+            jobs[f"langs{suffix}.svg"] = (lang_card(theme, stats), 470, 205)
             for name, _ in PINNED:
                 jobs[f"{name}{suffix}.svg"] = (repo_card(theme, by_name[name]), 470, 132)
         validated = {}
